@@ -3,13 +3,26 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Zyntek</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<title>Zyntek — Innovative tech solutions for web, apps, and digital services</title>
+
+<!-- SEO Meta Tags -->
+<meta name="description" content="Zyntek — Innovative tech solutions for web, apps, and digital services. Helping businesses succeed with modern websites, mobile apps, and digital solutions.">
+<meta name="keywords" content="Zyntek, tech company, web development, mobile apps, digital solutions, software, IT services">
+<meta name="author" content="Zyntek">
+
+<!-- Social Media Preview -->
+<meta property="og:title" content="Zyntek — Innovative tech solutions">
+<meta property="og:description" content="Helping businesses succeed with modern websites, mobile apps, and digital solutions.">
+<meta property="og:image" content="https://thetester126h.github.io/Zyntek/image.png">
+<meta property="og:url" content="https://thetester126h.github.io/Zyntek">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Favicon -->
 <link rel="icon" type="image/png" href="image.png">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 <style>
-    html {
-        scroll-behavior: smooth;
-    }
+    html { scroll-behavior: smooth; }
 
     :root {
         --bg-color: #f8f9fa;
@@ -33,7 +46,7 @@
         --footer-text: #f1f1f1;
     }
 
-    * {margin: 0; padding: 0; box-sizing: border-box;}
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
         font-family: 'Poppins', sans-serif;
@@ -57,9 +70,9 @@
         z-index: 1000;
     }
 
-    .logo {display: flex; align-items: center; gap: 10px;}
-    .logo img {height: 40px; width: auto; display: block;}
-    .logo h1 {font-weight: 600; color: white; font-size: 1.5rem;}
+    .logo { display: flex; align-items: center; gap: 10px; }
+    .logo img { height: 40px; width: auto; display: block; }
+    .logo h1 { font-weight: 600; color: white; font-size: 1.5rem; }
 
     nav a {
         color: white;
@@ -68,7 +81,7 @@
         font-weight: 500;
         transition: opacity 0.3s;
     }
-    nav a:hover {opacity: 0.8;}
+    nav a:hover { opacity: 0.8; }
 
     .toggle-btn {
         cursor: pointer;
@@ -81,7 +94,7 @@
         margin-left: 1rem;
         transition: background 0.3s, color 0.3s;
     }
-    .toggle-btn:hover {background: #f1f1f1;}
+    .toggle-btn:hover { background: #f1f1f1; }
 
     /* Hero */
     .hero {
@@ -90,8 +103,8 @@
         text-align: center;
         padding: 8rem 5% 6rem;
     }
-    .hero h2 {font-size: 2.5rem; margin-bottom: 1rem;}
-    .hero p {font-size: 1.2rem; margin-bottom: 2rem;}
+    .hero h2 { font-size: 2.5rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1.2rem; margin-bottom: 2rem; }
     .btn {
         display: inline-block;
         background: white;
@@ -102,18 +115,15 @@
         text-decoration: none;
         transition: background 0.3s;
     }
-    .btn:hover {background: #f1f1f1;}
+    .btn:hover { background: #f1f1f1; }
 
     /* Sections */
-    section {padding: 4rem 5%;}
+    section { padding: 4rem 5%; }
     h2.section-title {
         text-align: center;
         font-size: 2rem;
         margin-bottom: 2rem;
-        color: var(--primary-color); /* Light mode: dark navy */
-    }
-    body.dark h2.section-title {
-        color: white; /* Dark mode: white */
+        color: var(--primary-color);
     }
 
     /* Features / Cards */
@@ -130,8 +140,8 @@
         box-shadow: 0 4px 20px rgba(0,0,0,0.05);
         transition: transform 0.3s;
     }
-    .feature-card:hover {transform: translateY(-5px);}
-    .feature-card h3 {color: var(--primary-color); margin-bottom: 1rem;}
+    .feature-card:hover { transform: translateY(-5px); }
+    .feature-card h3 { color: var(--primary-color); margin-bottom: 1rem; }
 
     /* Footer */
     footer {
